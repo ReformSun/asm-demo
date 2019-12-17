@@ -1,0 +1,24 @@
+
+
+javac -sourcepath ./src/main/java/ ./src/main/java/com/test/testclass/TestClass.java -d ./src/test/testClassFile/
+
+javap -v -l ./src/test/testClassFile/com/test/testclass/TestClass.class
+
+javap -c -l ./src/test/testClassFile/com/test/testclass/TestClass.class
+
+
+javap -v ./src/test/testClassFile/com/test/testclass/TestClass.class
+javap -v ./src/test/testClassFile/com/test/testclass/TestInterface.class
+javap -v ./src/test/testClassFile/TestClass.class
+
+
+/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/bin/javap -s ./src/test/testClassFile/com/test/testclass/TestClass.class
+
+java8和java7通过javap -s命令展示的方法签名不同
+
+javac ./src/main/java/com/test/testclass/TestInterface.java -d ./src/test/testClassFile/
+
+
+javac ./src/main/java/com/test/memoryModel/TestMain6.java -d ./src/test/testClassFile/
+javap -v ./src/test/testClassFile/com/test/memoryModel/TestMain6.class
+javap -v ./src/test/testClassFile/com/test/memoryModel/TestMain6$VolatileFeaturesExample.class

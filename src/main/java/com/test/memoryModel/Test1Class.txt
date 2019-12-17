@@ -1,0 +1,34 @@
+public javaBasedLearn.memoryModel.Test1();
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: ldc           #2                  // String dd
+         7: putfield      #3                  // Field a:Ljava/lang/String;
+        10: return
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      11     0  this   LjavaBasedLearn/memoryModel/Test1;
+
+
+public javaBasedLearn.memoryModel.Test1();
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: ldc           #2                  // String dd
+         7: putfield      #3                  // Field a:Ljava/lang/String;
+        10: return
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0      11     0  this   LjavaBasedLearn/memoryModel/Test1;

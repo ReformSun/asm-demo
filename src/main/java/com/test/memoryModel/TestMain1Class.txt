@@ -1,0 +1,202 @@
+/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/bin/javap -v javaBasedLearn.memoryModel.TestMain1
+Classfile /Users/apple/Documents/AgentJava/intellProject/LearnJava/target/classes/javaBasedLearn/memoryModel/TestMain1.class
+  Last modified 2019-3-7; size 1837 bytes
+  MD5 checksum e956eb5549fa8a3af541bbdc35577622
+  Compiled from "TestMain1.java"
+public class javaBasedLearn.memoryModel.TestMain1
+  SourceFile: "TestMain1.java"
+  InnerClasses:
+       public static final #80= #79 of #83; //Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+  BootstrapMethods:
+    0: #50 invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+      Method arguments:
+        #51 ()V
+        #52 invokestatic javaBasedLearn/memoryModel/TestMain1.lambda$testMethod1$0:(LjavaBasedLearn/memoryModel/Test1;)V
+        #51 ()V
+    1: #50 invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+      Method arguments:
+        #51 ()V
+        #55 invokestatic javaBasedLearn/memoryModel/TestMain1.lambda$testMethod1$1:(LjavaBasedLearn/memoryModel/Test1;)V
+        #51 ()V
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #16.#45        //  java/lang/Object."<init>":()V
+   #2 = Methodref          #15.#46        //  javaBasedLearn/memoryModel/TestMain1.testMethod1:()V
+   #3 = Class              #47            //  javaBasedLearn/memoryModel/Test1
+   #4 = Methodref          #3.#45         //  javaBasedLearn/memoryModel/Test1."<init>":()V
+   #5 = Class              #48            //  java/lang/Thread
+   #6 = InvokeDynamic      #0:#53         //  #0:run:(LjavaBasedLearn/memoryModel/Test1;)Ljava/lang/Runnable;
+   #7 = Methodref          #5.#54         //  java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+   #8 = InvokeDynamic      #1:#53         //  #1:run:(LjavaBasedLearn/memoryModel/Test1;)Ljava/lang/Runnable;
+   #9 = Methodref          #5.#56         //  java/lang/Thread.start:()V
+  #10 = Methodref          #5.#57         //  java/lang/Thread.join:()V
+  #11 = Class              #58            //  java/lang/InterruptedException
+  #12 = Methodref          #11.#59        //  java/lang/InterruptedException.printStackTrace:()V
+  #13 = Methodref          #5.#60         //  java/lang/Thread.dumpStack:()V
+  #14 = Methodref          #3.#46         //  javaBasedLearn/memoryModel/Test1.testMethod1:()V
+  #15 = Class              #61            //  javaBasedLearn/memoryModel/TestMain1
+  #16 = Class              #62            //  java/lang/Object
+  #17 = Utf8               <init>
+  #18 = Utf8               ()V
+  #19 = Utf8               Code
+  #20 = Utf8               LineNumberTable
+  #21 = Utf8               LocalVariableTable
+  #22 = Utf8               this
+  #23 = Utf8               LjavaBasedLearn/memoryModel/TestMain1;
+  #24 = Utf8               main
+  #25 = Utf8               ([Ljava/lang/String;)V
+  #26 = Utf8               args
+  #27 = Utf8               [Ljava/lang/String;
+  #28 = Utf8               testMethod1
+  #29 = Utf8               e
+  #30 = Utf8               Ljava/lang/InterruptedException;
+  #31 = Utf8               test1
+  #32 = Utf8               LjavaBasedLearn/memoryModel/Test1;
+  #33 = Utf8               thread1
+  #34 = Utf8               Ljava/lang/Thread;
+  #35 = Utf8               thread2
+  #36 = Utf8               StackMapTable
+  #37 = Class              #47            //  javaBasedLearn/memoryModel/Test1
+  #38 = Class              #48            //  java/lang/Thread
+  #39 = Class              #58            //  java/lang/InterruptedException
+  #40 = Utf8               lambda$testMethod1$1
+  #41 = Utf8               (LjavaBasedLearn/memoryModel/Test1;)V
+  #42 = Utf8               lambda$testMethod1$0
+  #43 = Utf8               SourceFile
+  #44 = Utf8               TestMain1.java
+  #45 = NameAndType        #17:#18        //  "<init>":()V
+  #46 = NameAndType        #28:#18        //  testMethod1:()V
+  #47 = Utf8               javaBasedLearn/memoryModel/Test1
+  #48 = Utf8               java/lang/Thread
+  #49 = Utf8               BootstrapMethods
+  #50 = MethodHandle       #6:#63         //  invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #51 = MethodType         #18            //  ()V
+  #52 = MethodHandle       #6:#64         //  invokestatic javaBasedLearn/memoryModel/TestMain1.lambda$testMethod1$0:(LjavaBasedLearn/memoryModel/Test1;)V
+  #53 = NameAndType        #65:#66        //  run:(LjavaBasedLearn/memoryModel/Test1;)Ljava/lang/Runnable;
+  #54 = NameAndType        #17:#67        //  "<init>":(Ljava/lang/Runnable;)V
+  #55 = MethodHandle       #6:#68         //  invokestatic javaBasedLearn/memoryModel/TestMain1.lambda$testMethod1$1:(LjavaBasedLearn/memoryModel/Test1;)V
+  #56 = NameAndType        #69:#18        //  start:()V
+  #57 = NameAndType        #70:#18        //  join:()V
+  #58 = Utf8               java/lang/InterruptedException
+  #59 = NameAndType        #71:#18        //  printStackTrace:()V
+  #60 = NameAndType        #72:#18        //  dumpStack:()V
+  #61 = Utf8               javaBasedLearn/memoryModel/TestMain1
+  #62 = Utf8               java/lang/Object
+  #63 = Methodref          #73.#74        //  java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #64 = Methodref          #15.#75        //  javaBasedLearn/memoryModel/TestMain1.lambda$testMethod1$0:(LjavaBasedLearn/memoryModel/Test1;)V
+  #65 = Utf8               run
+  #66 = Utf8               (LjavaBasedLearn/memoryModel/Test1;)Ljava/lang/Runnable;
+  #67 = Utf8               (Ljava/lang/Runnable;)V
+  #68 = Methodref          #15.#76        //  javaBasedLearn/memoryModel/TestMain1.lambda$testMethod1$1:(LjavaBasedLearn/memoryModel/Test1;)V
+  #69 = Utf8               start
+  #70 = Utf8               join
+  #71 = Utf8               printStackTrace
+  #72 = Utf8               dumpStack
+  #73 = Class              #77            //  java/lang/invoke/LambdaMetafactory
+  #74 = NameAndType        #78:#82        //  metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #75 = NameAndType        #42:#41        //  lambda$testMethod1$0:(LjavaBasedLearn/memoryModel/Test1;)V
+  #76 = NameAndType        #40:#41        //  lambda$testMethod1$1:(LjavaBasedLearn/memoryModel/Test1;)V
+  #77 = Utf8               java/lang/invoke/LambdaMetafactory
+  #78 = Utf8               metafactory
+  #79 = Class              #84            //  java/lang/invoke/MethodHandles$Lookup
+  #80 = Utf8               Lookup
+  #81 = Utf8               InnerClasses
+  #82 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #83 = Class              #85            //  java/lang/invoke/MethodHandles
+  #84 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #85 = Utf8               java/lang/invoke/MethodHandles
+{
+  public javaBasedLearn.memoryModel.TestMain1();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 10: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0       5     0  this   LjavaBasedLearn/memoryModel/TestMain1;
+
+  public static void main(java.lang.String[]);
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #2                  // Method testMethod1:()V
+         3: return
+      LineNumberTable:
+        line 12: 0
+        line 13: 3
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+               0       4     0  args   [Ljava/lang/String;
+
+  public static void testMethod1();
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=4, args_size=0
+         0: new           #3     创建一个对象并把其引用值压入堆栈             // class javaBasedLearn/memoryModel/Test1
+         3: dup                 复制栈顶一个字长的数据，将复制后的数据压栈。
+         4: invokespecial #4    编译时方法绑定调用方法              // Method javaBasedLearn/memoryModel/Test1."<init>":()V
+         7: astore_0             	将栈顶引用类型值保存到局部变量0中
+         8: new           #5       创建一个对象并把其引用值压入堆栈            // class java/lang/Thread
+        11: dup                     复制栈顶一个字长的数据，将复制后的数据压栈。
+        12: aload_0                 从局部变量0中装载引用类型值入栈
+        13: invokedynamic #6,  0              // InvokeDynamic #0:run:(LjavaBasedLearn/memoryModel/Test1;)Ljava/lang/Runnable;
+        18: invokespecial #7                  // Method java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+        21: astore_1        将栈顶引用类型值保存到局部变量1中
+        22: new           #5                  // class java/lang/Thread
+        25: dup
+        26: aload_0
+        27: invokedynamic #8,  0              // InvokeDynamic #1:run:(LjavaBasedLearn/memoryModel/Test1;)Ljava/lang/Runnable;
+        32: invokespecial #7                  // Method java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+        35: astore_2
+        36: aload_1
+        37: invokevirtual #9                  // Method java/lang/Thread.start:()V
+        40: aload_2
+        41: invokevirtual #9                  // Method java/lang/Thread.start:()V
+        44: aload_2
+        45: invokevirtual #10                 // Method java/lang/Thread.join:()V
+        48: aload_1
+        49: invokevirtual #10                 // Method java/lang/Thread.join:()V
+        52: goto          60
+        55: astore_3
+        56: aload_3
+        57: invokevirtual #12                 // Method java/lang/InterruptedException.printStackTrace:()V
+        60: invokestatic  #13                 // Method java/lang/Thread.dumpStack:()V
+        63: return
+      Exception table:
+         from    to  target type
+            44    52    55   Class java/lang/InterruptedException
+      LineNumberTable:
+        line 24: 0
+        line 26: 8
+        line 31: 22
+        line 35: 36
+        line 36: 40
+        line 40: 44
+        line 41: 48
+        line 44: 52
+        line 42: 55
+        line 43: 56
+        line 46: 60
+        line 48: 63
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+              56       4     3     e   Ljava/lang/InterruptedException;
+               8      56     0 test1   LjavaBasedLearn/memoryModel/Test1;
+              22      42     1 thread1   Ljava/lang/Thread;
+              36      28     2 thread2   Ljava/lang/Thread;
+      StackMapTable: number_of_entries = 2
+           frame_type = 255 /* full_frame */
+          offset_delta = 55
+          locals = [ class javaBasedLearn/memoryModel/Test1, class java/lang/Thread, class java/lang/Thread ]
+          stack = [ class java/lang/InterruptedException ]
+           frame_type = 4 /* same */
+
+}
+
+Process finished with exit code 0
